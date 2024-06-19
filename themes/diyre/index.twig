@@ -14,17 +14,10 @@
     {% if current_page %}
     <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
-    <!-- Build Map Scripts Should Go Here -->
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
 
-    <link rel="stylesheet" href="{{ current_page.url }}/styles/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ current_page.url }}/styles/bg-style.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.shopify.com/s/files/1/0698/2265/files/snap.svg.js?12799203819914107341"></script>
-    <script type="text/javascript" src="{{ theme_url }}/js/bg_tools20.js"></script>
-    <script type="text/javascript" src="https://cdn.shopify.com/s/files/1/0698/2265/files/jquery-ui.min.js?13204635692899657925"></script>
     <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
 <script type="text/javascript">window.Beacon('init', '3248ad67-89a6-4ac5-8753-2b7e94af9233')</script>
 </head>
@@ -40,7 +33,7 @@
             <h1 class="hidden">
                 <a href="{{ "index"|link }}">{{ site_title }}</a>
             </h1>
-            <div class="logo"><img src="https://cdn.shopify.com/s/files/1/0698/2265/t/28/assets/logo.png?827293068455235108"></div>
+            <div class="logo"><img src="{{ base_url }}/assets/logo.png"></div>
             <div id="nav" role="region" tabindex="-1">
                 <ul>
                     {% for page in pages if page.title and not page.hidden %}

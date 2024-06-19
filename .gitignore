@@ -1,6 +1,7 @@
 # Linux
 *~
 *.swp
+*.jpg
 
 # Windows
 Thumbs.db

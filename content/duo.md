@@ -44,7 +44,8 @@ Template: manual
 </div>
 
 <div id="assembly-guide-content">
-    <H1 class="exclude" style="clear: both">I/O Board Assembly</H1>
+<H1 class="exclude" style="clear: both">I/O Board Assembly</H1>
+
 <div class="manual-step">
     <div class="step-description">
     <p>The Colour Duo is split into two sections, the I/O Board and Drawer. In this guide we'll build the I/O Board first and then the Drawer.</p>
@@ -835,7 +836,7 @@ Template: manual
 </div>
 </div>
 
-<h1>Chassis Assembly</h1>
+<H1 class="exclude" style="clear: both">Chassis Assembly</H1>
 
 <h2>Chassis Fasteners (Bag 13)</h2>
 
