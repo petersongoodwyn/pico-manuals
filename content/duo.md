@@ -451,7 +451,7 @@ Template: manual
 <div class="manual-step">    
     <h3 class="step-header">Sort Resistors</h3>
         <div class="step-description">
-        <p>Here's a link to that same resistor tool from above: <a href="https://maps.diy.re/res-calc/" target="_blank">Resistor Calculator</a></p>
+        <p>Here's a link to that same resistor tool from above: <a href="https://www.diyrecordingequipment.com/pages/resistor-color-code-calculator" target="_blank">Resistor Calculator</a></p>
         </div>
         <p><strong>Parts in this step:</strong> Refer to the component <a href="%base_url%/assets/duo/duo-sorting-1.1.pdf">sorting sheet</a>.</p>
 </div>
