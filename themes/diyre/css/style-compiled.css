@@ -215,7 +215,7 @@ div.h3 {
     padding: 10px 0;
 }
 
-.step-image {
+.step-image, .tool-image {
     text-align: center;
     float: left;
     margin: 20px 30px 20px 0;
@@ -223,7 +223,6 @@ div.h3 {
     max-height: 600px;
     overflow: hidden;
 }
-
 .step-image img {
     width: 100%;
 	height: auto;
@@ -246,11 +245,9 @@ div.h3 {
     font-size: 1.2em;
     /* margin: 50px 0 10px 0; */
 }
-
 .step-description ul {
     list-style: none;
 }
-
 #print-button {
     text-align: center;
     margin: 20px auto;
